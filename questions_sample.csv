@@ -1,0 +1,29 @@
+id,type,question,expected_file,expected_section,keywords
+1,answerable,How long is the pickup QR code valid?,01_product_overview.md,User journey,72
+2,answerable,How many compartments can a locker bank have?,01_product_overview.md,What the product does,12|48
+3,answerable,Does the locker have refrigerated compartments?,01_product_overview.md,Product limits (do not claim),refrigerated|not
+4,answerable,Which database does production use?,03_software.md,Database,PostgreSQL
+5,answerable,Which web framework does the backend use?,03_software.md,Architecture and stack,FastAPI|SQLAlchemy
+6,answerable,How does the CI/CD pipeline work?,03_software.md,CI/CD and development cycle,GitHub Actions|approval
+7,answerable,In which regions do the services run?,03_software.md,Cloud and infrastructure,Frankfurt|Virginia
+8,answerable,What happens when the locker loses internet?,03_software.md,Offline behavior,24
+9,answerable,How is user data encrypted?,04_data_security_privacy.md,Data protection,TLS|AES-256
+10,answerable,Which security checks run on every pull request?,04_data_security_privacy.md,Application security,static|dependency|container
+11,answerable,How long is the parcel history kept?,04_data_security_privacy.md,Privacy and data retention,12 months
+12,answerable,How fast does the team triage a security incident?,04_data_security_privacy.md,Incident response,4 hours
+13,answerable,What size is the medium compartment?,02_hardware.md,Locks and sensors,30 x 40 x 50
+14,answerable,How long does the battery backup last?,02_hardware.md,Power and connectivity,4 hours
+15,answerable,What is the average production cost per unit?,02_hardware.md,Production and cost,1900|1,900
+16,answerable,How often is preventive maintenance done?,02_hardware.md,Maintenance and lifespan,6 months
+17,answerable,What are the support hours?,05_operations_support.md,Support channels,8:00|18:00
+18,answerable,What is the first response target for critical issues?,05_operations_support.md,Service levels,4-hour
+19,answerable,Until which day can a customer request a corrected invoice?,05_operations_support.md,Invoicing,10th
+20,answerable,How long does an installation take?,05_operations_support.md,Customer onboarding,one day
+21,unanswerable,What is the maximum parcel weight a compartment supports?,,,
+22,unanswerable,How much does a locker rental cost per month?,,,
+23,unanswerable,How many employees does the company have?,,,
+24,unanswerable,What is the annual revenue of the company?,,,
+25,unanswerable,Which payment gateway is used for subscriptions?,,,
+26,unanswerable,What is the accuracy of the parcel recognition model?,,,
+27,unanswerable,Which Python version runs in production?,,,
+28,unanswerable,Does the locker support fingerprint unlock?,,,

@@ -1,0 +1,13 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+chroma_db/
+.env
+# private runs of the evaluation (keep only aggregate numbers in docs/)
+results/results*.csv
+results/summary_*.md
+results/comparison.md
+# never commit real internal documents
+kb_private/
